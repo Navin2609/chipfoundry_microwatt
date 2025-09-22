@@ -16,12 +16,6 @@ A demo application will be developed in C or Micropython running on Microwatt to
 - Display them over UART,
 - Trigger LEDs or other actuators based on threshold values.
 
-## Technical Plan
-1. **Week 1–2**: Set up Microwatt on FPGA, run hello_world demo.  
-2. **Week 3–4**: Implement custom peripheral in VHDL (`sensor_gpio.vhdl`) and connect it to Microwatt’s bus.  
-3. **Week 5**: Write C/Micropython demo application.  
-4. **Week 6**: Verification – provide VHDL testbenches and STA/SDF constraints.  
-5. **Final**: Document, record video demo, and prepare final submission.
 
 ## Expected Outcome
 - A working SoC consisting of Microwatt + custom peripheral.  
